@@ -1,7 +1,6 @@
-row=5
-cols=5
-for i in range(1,row+1) :
-    for j in range(1,i+1) :
-        print(j)
+for i in range(4):
+    for j in range(i+1):
+         print('*',end='')
 
-
+   
+    print()

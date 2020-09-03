@@ -1,0 +1,19 @@
+def random_num(a,b,c,d):
+    print(a)
+    print(b)
+    print(c)
+    print(d)
+    
+random_num(11,22,33,44)
+
+def character(name,age):
+    print(name)
+    print(age)
+character('ironman',45)
+
+
+def avengers(power,exp=45):
+    level = power + exp
+    return level
+power= int(input('enter charater power'))
+print(avengers(power))
